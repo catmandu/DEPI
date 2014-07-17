@@ -1,0 +1,25 @@
+<?php
+    class Papers extends Controller{
+        function __construct(){
+            parent::Controller();
+        }
+        function index(){
+            $this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('papers_view');
+            $this->load->view('footer_view');
+        }
+        function format(){
+        	$this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('papers_format_view');
+            $this->load->view('footer_view');
+        }
+        function submission(){
+        	$this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('papers_submission_view');
+            $this->load->view('footer_view');
+        }
+    }
+?>

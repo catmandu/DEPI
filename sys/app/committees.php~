@@ -1,0 +1,13 @@
+<?php
+	class Committees extends Controller{
+		function __construct(){
+			parent::Controller();
+		}
+		function index(){
+			$this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('comittees_view');
+            $this->load->view('footer_view');
+		}
+	}
+?>

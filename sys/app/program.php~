@@ -1,0 +1,13 @@
+<?php
+	class Program extends Controller{
+		function __construct(){
+			parent::Controller();
+		}
+		function index(){
+			$this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('program_view');
+            $this->load->view('footer_view');
+		}
+	}
+?>

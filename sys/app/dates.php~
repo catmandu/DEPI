@@ -1,0 +1,10 @@
+<?php
+	class Dates extends Controller{
+		function __construct(){
+			parent::Controller();
+		}
+		function index(){
+			
+		}
+	}
+?>

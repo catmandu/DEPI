@@ -1,0 +1,178 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Verdana";
+    /*IE 6+*/
+  	src: url(../fonts/verdana.eot);
+    /*Firefox,Chrome,Safari,Opera*/
+    src: local("Verdana"), url(../fonts/verdana.ttf) format("truetype");
+}
+#page-shadow{width: 1008px;height: 100%;position: relative;float: left;background: url(../img/bg-shadow.png) repeat-y;}
+#container{width: 970px;height: 100%;position: relative;float: left;margin-left: 19px;margin-right: 19px;background: #FFF;}
+#language{width: 400px;height: 20px;font-family: "Verdana";font-size: 11px;font-weight: bold;z-index: 999;position: relative;}
+#language a{padding-right: 12px;padding-left: 12px;}
+#language a:hover{text-decoration: underline;color: #333;}
+#header{width: 970px;height: 192px;border-bottom: solid 1px #999;float: left;}
+#header-bg{width: 590px;height:192px;float:right;position:relative;margin-top:-20px;visibility: hidden;}
+#logo-clcar{width: 990px;height: 172px;background: url(../img/logo-clcar.png) no-repeat left;margin-left: 11px;position: absolute;z-index: 1000;float: left;}
+#info{margin-top: 55px;height: 55px;color: #EEE;font-size: 20px;font-weight: bold;font-family: "Verdana";text-align: center;z-index: 998;position: absolute;right: 0px;padding-right: 20px;padding-left: 20px;background: url(../img/bg-form.png);}
+#bg-content{float: left;z-index: 200 !important;}
+#menu{width: 170px;height: 428px;float: left;background: #A9A9A9;cursor: pointer;border-right: solid 1px #999;}
+#content-home{width: 570px;min-height: 100% !important;margin-bottom: 0px !important;position: relative;padding: 10px 25px;float: left;font-family: "Verdana";font-size: 12px;text-align: justify;background: #FFF;}
+#logo-tec{display: block;float: right;}
+#content{width: 749px;position: relative;padding: 10px 25px;float: left;font-family: "Verdana";font-size: 12px;text-align: justify;background: #FFF;}
+#sidebar{float: left;width: 179px;margin-top: 0px;}
+#content li{margin-top: 2px;margin-bottom: 2px;margin-left: 25px;}
+/*El footer tenia 930px en width...*/
+#footer{width: 930px;height: 100%;float: left;background: #FFF;border-top: solid 1px #999;padding: 15px 20px 15px 20px;}
+
+#partners{width: 100%;height:200px;}
+#gridtalk{background: url(../img/partners/sep-logo-300x200.jpg)left;width: 150px;}
+#isgtw{background: url(../img/partners/dgest.jpg) left;  width: 200px;}
+#uis{background: url(../img/partners/footer-itc.png) left; width: 73px;}
+#uis:hover{background-position: right;}
+#itc{background: url(../img/partners/logo_conacyt.jpg) left;width: 150px;}
+#utp{background: url(../img/partners/Logo_Promep.jpg) left;width: 165px;}
+#lig{background: url(../img/partners/footer-redclara.png) left; width: 270px;}
+#i3s{background: url(../img/partners/jaguarsoft.png) left;width: 230px;}
+#democritos{background: url(../img/partners/verano.jpg) left;width: 250px;}
+#uam{background: url(../img/partners/pnpc.jpg) left; width: 95px;}
+#ula{background: url(../img/partners/iea_etde.jpg) left;width: 146px;}
+#cecalcula{background: url(../img/partners/InterfaceLogos.gif) left;width: 105px;}
+#ivic{background: url(../img/partners/logo_header.png) left;width: 205px;}
+#ivic:hover{background-position: right;}
+#sponsors{max-width: 140%;height: 90px;}
+
+/* CONACYT y PROMEP
+#itc{background: url(../img/sponsors/dgest.jpg) left;width:290px;}
+#itc:hover{background-position: right;}	
+#redclara{background: url(../img/sponsors/footer-redclara.png) left; width: 250px;}
+#redclara:hover{background-position: left;}*/
+/*#gridtalk:hover{background-position: right;}*/
+/*
+#ivic{background: url(../img/partners/jaguarsoft.png) left;width: 34px;}
+#ivic:hover{background-position: right;}
+#zaznova{background: url(../img/sponsors/jaguarsoft.png) left; width: 178px;}
+#zaznova:hover{background-position: right;}*/
+/*#gridtalk{background: url(../img/partners/footer-gridtalk.png)left;width: 73px;}
+#gridtalk:hover{background-position: right;}
+#isgtw{background: url(../img/partners/footer-isgtw.png) left;width: 219px;}
+#isgtw:hover{background-position: right;}
+#uis{background: url(../img/partners/footer-uis.png) left;width: 117px;}
+#uis:hover{background-position: right;}
+#lig{background: url(../img/partners/footer-lig.png) left;width: 83px;}
+#lig:hover{background-position: right;}
+#i3s{background: url(../img/partners/footer-i3s.png) left;width: 250px;}
+#i3s:hover{background-position: right;}
+#democritos{background: url(../img/partners/footer-democritos.png) left;width: 65px;}
+#democritos:hover{background-position: right;}
+
+#utp{background: url(../img/partners/footer-utp.png) left;width: 69px;}
+#utp:hover{background-position: right;}
+#ula{background: url(../img/partners/footer-ula.png) left;width: 51px;}
+#ula:hover{background-position: right;}
+#cecalcula{background: url(../img/partners/footer-cecalcula.png) left;width: 88px;}
+#cecalcula:hover{background-position: right;}
+#ivic{background: url(../img/partners/footer-ivic.png) left;width: 34px;}
+#ivic:hover{background-position: right;}
+#ufrgs{background: url(../img/partners/footer-ufrgs.png) left;width: 90px;}
+#ufrgs:hover{background-position: right;}
+#uam{background: url(../img/partners/footer-uam.png) left; width: 128px;}
+#uam:hover{background-position: right;}*/
+
+
+
+/*
+#zaznova{background: url(../img/sponsors/footer-zaznova.png) left; width: 178px;}
+#zaznova:hover{background-position: right;}
+#acolima{background: url(../img/sponsors/footer-ayuntamientocolima.png) left;width: 51px;}
+#acolima:hover{background-position: right;}
+#avda{background: url(../img/sponsors/footer-ayuntamientovda.png) left;width: 150px;}
+#avda:hover{background-position: right;}
+#sbc{background: url(../img/sponsors/footer-sbc.png) left; width:179px;}
+#sbc:hover{background-position: right;}*/
+/*#bull{background: url(../img/sponsor-bull.png) center;width: 128px;}*/
+/*#bull:hover{background: url(../img/sponsor-bullx.png) center;}*/
+/*#hp{background: url(../img/sponsor-hp.png) center;width: 92px;}*/
+/*#hp:hover{background: url(../img/sponsor-hpx.png) center;}*/
+/*#intel{background: url(../img/sponsor-intel.png) center;width: 101px;}*/
+/*#intel:hover{background: url(../img/sponsor-intelx.png) center;}*/
+/*#microsoft{background: url(../img/sponsor-microsoft.png) center;width: 160px;}*/
+/*#microsoft:hover{background: url(../img/sponsor-microsoftx.png) center;}*/
+/*#sgi{background: url(../img/sponsor-sgi.png) center;width: 86px;}*/
+/*#sgi:hover{background: url(../img/sponsor-sgix.png) center;}*/
+
+/*Elements*/
+*{ margin: 0; padding: 0;}
+body{width:1008px;min-height:100%;margin:0 auto;background:url(../img/bg-colour.png) repeat-x;font-family:"Verdana";}
+h2{margin-bottom: 4px;font-size: 24px;color: #777;}
+img{border: none;}
+p{padding: 8px 0px 8px 0px;}
+ol li{font-weight: bold;}
+ul li{font-weight: normal;}
+a{color: brown; text-decoration: none;}
+a:hover{color: #333;}
+table{border: none;margin:0 auto;}
+table td{padding: 2px 5px;}
+form{width: 500px;min-height: 250px;padding: 5px 10px; margin: 0 auto;}
+form fieldset{border: none;}
+form fieldset legend{font-weight: bold; text-align: center; margin: 0 auto 10px auto; width: 100%;}
+form label{clear: both;float: left;width: 150px;margin-right: 20px;margin-bottom: 3px;text-align: right;}
+form input, select{display: block;float: left;width: 150px;margin-bottom: 10px;}
+form label.error{float:right;width:150px;color:red;font-size:10px;margin:-32px 0 0 5px;padding-left:0px;text-align: left;border: solid 1px;}
+form select, input.button{width: 156px}
+form input.button{float: left;position: relative;display: block;clear:both;margin: 10px auto;left: 170px;}
+
+/*Classes*/
+.boldies{font-weight: bold; color: #666;}
+.brownies{color: #F90;}
+.italics{font-style: italic;}
+.centered{text-align: center;}
+.hidden{visibility: hidden;}
+.speaker{clear: both;min-height:130px;margin-bottom: 20px; margin-top: 20px;}
+.speaker-photo{float: left;}
+.speaker-name{display: inline-block; margin-left: 15px;}
+.speaker-desc{display: block; position:relative;left: 15px; width: 720px;}
+.left{float: left;}
+.left-spaced{display: inline-block; margin-left: 10px;}
+.block-centered{display:block; float: left;}
+.selected a{color: #000 !important;}
+/*.topics-list{width: 370px;} <--Original*/
+.topics-list{width: 580px;}
+.people-list{display: block;float: left;margin-top: 10px;margin-bottom: 10px !important;}
+.cochairman{display: block;float: left;margin-left: 0px !important;width: 374px; list-style: none;text-align: center;}
+.committee{display: block;float: left;margin-left: 0px !important; margin-bottom: 0px !important;width: 374px; list-style: none;}
+
+.partner{float: left;height: 70px;margin:10px 8px;background-repeat: no-repeat !important;}
+.partner2{float: left;height: 70px;margin:10px 30px;background-repeat: no-repeat !important;}
+/*AL SPONSOR le tiene que mover la parte de margin para que las imagenes se muevan*/
+.sponsor{float: left;height: 70px;margin:10px -30px;background-repeat: no-repeat !important;}
+.footer-text{margin-top: 20px;font-size: 10px;color: #666; text-align: center;}
+.footer-links{text-decoration: none; font-weight: bold; color: #666;}
+.footer-links:hover{color: #000;}
+.money{text-align: right;}
+
+#spinner span{z-index:1001;position:absolute;color: #F90;font-size:14px;font-weight:bold;display:block; width:100%;text-align:center;top:50%;}
+#spinner img{display:block;position:relative;top:130px;left:225px;}
+#spinner{display:none;z-index:1000;position:absolute; top:20px; left:150px;width: 492px;height: 350px;margin: 0 auto;background: url(../img/bg-form.png);}
+#message{display:none; width: 100%; height: 100px;text-align:center;font-size:14px;font-weight: bold;}
+#message span.ok{color:green;}
+#message span.fail{color:red;}
+
+/*Para la tabla en forma de Zebra*/
+.lista {
+list-style-type: none;
+margin:1;
+padding:0;
+}
+
+
+.tablazebra  {
+    width: 690px;
+    text-align: left;
+    background: white;
+    }
+     
+    .tabla .modo tr:nth-child(2n+1) {
+    background-color: #CCCCCC;
+    color:black;
+}

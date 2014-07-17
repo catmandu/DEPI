@@ -1,0 +1,14 @@
+<?php
+    class Clcar extends Controller{
+        function __construct(){
+            parent::Controller();
+        }
+        function index(){
+            $this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('home_view');
+            //$this->load->view('banner_location_view');
+            $this->load->view('footer_view');
+        }
+    }
+?>

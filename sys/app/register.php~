@@ -1,0 +1,13 @@
+<?php
+    class Register extends Controller{
+        function __construct(){
+            parent::Controller();
+        }
+        function index(){
+            $this->load->view('header_view');
+            $this->load->view('menu_view');
+            $this->load->view('sponsor_view');
+            $this->load->view('footer_view');
+        }
+    }
+?>
